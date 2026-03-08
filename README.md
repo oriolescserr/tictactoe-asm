@@ -4,61 +4,58 @@
    </a>
 </p>
 
-# Pràctica 2 - Joc del Tres en Ratlla (Simulador Von Neumann)
+# Practice 2 - Tic-Tac-Toe Game (Von Neumann Simulator)
 
-**Assignatura:** Estructura de Computadors 2   
-**Grau:** 1r any d’Enginyeria Informàtica (Universitat de Lleida - Campus Igualada)  
-**Curs acadèmic:** 2024/25 — 2n quadrimestre  
-**Alumne:** Oriol Escolà Serra  
-**Nota obtinguda:** 10/10  
-**Pes a l’assignatura:** 15%
+**Subject:** Computer Architecture 2
+**Degree:** 1st year of Computer Engineering (University of Lleida - Igualada Campus)
+**Academic year:** 2024/25 — 2nd semester
+**Student:** Oriol Escolà Serra
+**Grade obtained:** 10/10
+**Weight in subject:** 15%
 
+## Objective
 
-## Objectiu
+Develop a program in assembly language for the KIT Von Neumann Simulator, implementing the classic Tic-Tac-Toe game with keyboard and screen interaction, optimised to the highest level and meeting all mandatory and optional requirements.
 
-Desenvolupar un programa en llenguatge ensamblador per al Simulador KIT Von Neumann, implementant el joc clàssic del Tres en Ratlla amb interacció mitjançant teclat i pantalla, optimitzat al màxim nivell i complint amb tots els requisits obligatoris i opcionals.
+## Installation and Execution
 
-## Instal·lació i execució
-
-1. Descarrega el simulador des del repositori: https://github.com/jvilaplana/SimuladorVonNeumann.
-2. Descomprimeix el fitxer ZIP en una carpeta de treball.
-3. Obre i edita els fitxers `.ens` amb un editor.
-4. Compila el programa:
-   
-   ```bash
-   Ensambla.exe nom-del-fitxer.ens
-   ```
-6. Executa el simulador:
-   
-   ```bash
+1. Download the simulator from the repository: https://github.com/jvilaplana/SimuladorVonNeumann.
+2. Extract the ZIP file into a working folder.
+3. Open and edit the `.ens` files with a text editor.
+4. Compile the program:
+```bash
+   Ensambla.exe filename.ens
+```
+5. Run the simulator:
+```bash
    VonNeuman.exe
-   ```
+```
 
-## Característiques del joc
+## Game Features
 
-- Neteja automàtica de pantalla i buffer del teclat a l'inici.
-- Dibuix d’un tauler 3x3 amb coordenades clares.
-- Entrada de coordenades per part de cada jugador.
-- Validació de coordenades i comprovació de caselles ocupades.
-- Impressió del símbol corresponent: X per al jugador 1 i O per al jugador 2.
-- Comprovació de 3 en ratlla en totes les direccions.
-- Detecció de final de partida i tauler ple.
-- Missatge de guanyador personalitzat.
+- Automatic screen and keyboard buffer clearing at startup.
+- Drawing of a 3x3 board with clear coordinates.
+- Coordinate input from each player.
+- Coordinate validation and occupied cell checking.
+- Display of the corresponding symbol: X for player 1 and O for player 2.
+- Checking for 3 in a row in all directions.
+- End-of-game detection and full board detection.
+- Personalised winner message.
 
-### Extres implementats
+### Extras Implemented
 
-- Entrada del nom dels jugadors al començament de la partida.
-- Opció de jugar una altra partida un cop finalitzada la primera, reiniciant totes les dades.
-- Codi altament comentat i estructurat en procediments modulars per facilitar la lectura i manteniment.
-- Optimització del rendiment i l'eficiència del codi.
+- Player name input at the start of the game.
+- Option to play another round once the first one has ended, resetting all data.
+- Highly commented code structured in modular procedures for easy reading and maintenance.
+- Performance and code efficiency optimisation.
 
-## Autor
+## Author
 
-Oriol Escolà Serra  
-Estudiant d’Enginyeria Informàtica  
-Universitat de Lleida – Campus Igualada  
+Oriol Escolà Serra
+Computer Engineering Student
+University of Lleida – Igualada Campus
 
-## Llicència
+## License
 
-Aquest projecte està desenvolupat amb finalitats educatives.  
-No es permet copiar aquest codi per a entregues acadèmiques sense autorització prèvia.
+This project was developed for educational purposes.
+Copying this code for academic submissions without prior authorisation is not permitted.
