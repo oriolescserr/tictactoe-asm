@@ -6,12 +6,11 @@
 
 # Practice 2 - Tic-Tac-Toe Game (Von Neumann Simulator)
 
-**Subject:** Computer Architecture 2
-**Degree:** 1st year of Computer Engineering (University of Lleida - Igualada Campus)
-**Academic year:** 2024/25 — 2nd semester
-**Student:** Oriol Escolà Serra
-**Grade obtained:** 10/10
-**Weight in subject:** 15%
+- **Subject:** Computer Architecture 2
+- **Degree:** 1st year of Computer Engineering (University of Lleida - Igualada Campus)
+- **Academic year:** 2024/25 — 2nd semester
+- **Grade obtained:** 10/10
+- **Weight in subject:** 15%
 
 ## Objective
 
